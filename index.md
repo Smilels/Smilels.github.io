@@ -14,4 +14,4 @@ title: About
 
 # Contact Me Trough
 - e-mail: cong@informatik.uni-hamburg.de
-- wechat: 18903660682
+- Wechat: 18903660682
