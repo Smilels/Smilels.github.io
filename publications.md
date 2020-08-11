@@ -5,10 +5,10 @@ title: Publications
 # Publications
 ## 2020
 
-- **Lin Cong**, Michael Görner, Philipp Ruppel, **Hongzhuo Liang**, Norman Hendrich, Jianwei Zhang, "**Self-Adapting Recurrent Models for Object Pushing from Learning in Simulation**", International Conference on Intelligent Robots and Systems (IROS) 2020, Las Vegas, USA. [[Code]](https://github.com/HitLyn/RMPPI) [[PDF]](https://arxiv.org/abs/2007.13421) [[Video]](https://youtu.be/RBFFCLiWhRw)
+- **Lin Cong**, Michael Görner, Philipp Ruppel, **Hongzhuo Liang**, Norman Hendrich, Jianwei Zhang, "**Self-Adapting Recurrent Models for Object Pushing from Learning in Simulation**", International Conference on Intelligent Robots and Systems (IROS) 2020, Las Vegas, USA. [[Code]](https://github.com/HitLyn/RMPPI) [[PDF]](https://arxiv.org/abs/2007.13421)
 
 <div style="text-align:center">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=z-gTJMs9tFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z-gTJMs9tFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <!-- - Jinpeng Mi, **Hongzhuo Liang**, Nikolaos Katzakis, Changshui Zhang and Jianwei Zhang, "**Intention-Related Natural Language Grounding via Object Affordance Detection and Intention Semantic Extraction**", Frontiers in Neurorobotics. [[PDF]](https://doi.org/10.3389/fnbot.2020.00026)
