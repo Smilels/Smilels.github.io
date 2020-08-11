@@ -13,4 +13,5 @@ title: About
 - Robot dexterous manipulation
 
 # Contact Me Trough
-- @icon-camera
+- e-mail: cong@informatik.uni-hamburg.de
+- wechat: 18903660682
