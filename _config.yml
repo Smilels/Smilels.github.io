@@ -1,0 +1,11 @@
+title:             Lin Cong
+tagline:           PhD student at University of Hamburg, Faculty of Mathematics, Informatics and Natural Science, Department Informatics, Group TAMS
+show_downloads:    false
+baseurl:           ""
+locale:            "en"
+# Gems
+plugins:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
