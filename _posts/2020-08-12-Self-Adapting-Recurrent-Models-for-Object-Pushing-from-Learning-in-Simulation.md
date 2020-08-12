@@ -4,7 +4,9 @@ title: "Self-Adapting Recurrent Models for Object Pushing from Learning in Simul
 date: 2020-08-12
 ---
 
-<p style="text-align: center;"> [Lin Cong](https://tams.informatik.uni-hamburg.de/people/cong/), [Michael Görner](https://tams.informatik.uni-hamburg.de/people/goerner/), [Philipp Ruppel](https://tams.informatik.uni-hamburg.de/people/ruppel/), [Hongzhuo Liang](https://tams.informatik.uni-hamburg.de/people/liang/), [Norman Hendrich](https://tams.informatik.uni-hamburg.de/people/hendrich/), [Jianwei Zhang](https://tams.informatik.uni-hamburg.de/people/zhang/) </p>
+<div align="center">
+[Lin Cong](https://tams.informatik.uni-hamburg.de/people/cong/), [Michael Görner](https://tams.informatik.uni-hamburg.de/people/goerner/), [Philipp Ruppel](https://tams.informatik.uni-hamburg.de/people/ruppel/), [Hongzhuo Liang](https://tams.informatik.uni-hamburg.de/people/liang/), [Norman Hendrich](https://tams.informatik.uni-hamburg.de/people/hendrich/), [Jianwei Zhang](https://tams.informatik.uni-hamburg.de/people/zhang/)
+</div>
 
 Planar pushing remains a challenging research topic, where building the dynamic model of the interaction is the core issue.
 Even an accurate analytical dynamic model is inherently unstable because
