@@ -13,7 +13,6 @@ Even an accurate analytical dynamic model is inherently unstable because
 physics parameters such as inertia and friction can only be approximated.
 Data-driven models usually rely on large amounts of training data,
 but data collection is time consuming when working with real robots.
-[Lin Cong](https://tams.informatik.uni-hamburg.de/people/cong/).
 
 In this paper, we collect all training data in a physics simulator and build an LSTM-based model to fit the pushing dynamics.
 Domain Randomization is applied to capture the pushing trajectories of a generalized class of objects.

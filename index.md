@@ -14,7 +14,7 @@ title: About
 
 # Contact
 <ul class="contacts">
-        <li>Email: [cong@informatik.uni-hamburg.de](cong@informatik.uni-hamburg.de)</li>
+        <li><a href="cong@informatik.uni-hamburg.der">Email</a></li>
 				<li>@WeChat: 18903660682</li>
         <li>@WhatsApp/Telegram: +49 15786838067</li>
 </ul>
