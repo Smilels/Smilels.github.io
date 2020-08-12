@@ -12,6 +12,8 @@ title: About
 - Object detection/recognition/segmentation
 - Robot dexterous manipulation
 
-# Contact Me Trough
-- e-mail: cong@informatik.uni-hamburg.de
-- Wechat: 18903660682
+# Contact
+<ul class="contacts">
+				<li><a href="#">@WeChat: 18903660682</a></li>
+				<li><a href="cong@informatk.uni-hamburg.de">Send Email</a></li>
+</ul>
