@@ -15,5 +15,4 @@ title: About
 # Contact
 <ul class="contacts">
 				<li>@WeChat: 18903660682</li>
-				<li><a href="cong@informatk.uni-hamburg.de">Send Email</a></li>
 </ul>
