@@ -15,4 +15,5 @@ title: About
 # Contact
 <ul class="contacts">
 				<li>@WeChat: 18903660682</li>
+        <li>@WhatsApp/Telegram: +49 15786838067</li>
 </ul>
