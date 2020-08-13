@@ -15,8 +15,22 @@ Recurrent Neural Networks (RNNs) have long been used for fitting nonlinear dynam
 With the distinctive ability to recognize patterns in sequences of data, the LSTM module is chosen to fit the object motion dynamics during the pushing process. We use an LSTM-based model to predict the motion of objects with unknown parameters
 and apply [Model Predictive Path Integral](https://homes.cs.washington.edu/~bboots/files/InformationTheoreticMPC.pdf) as control strategy to push the objects to target poses with a single point of contact.
 
-![Planar pushing object motion prediction problem1]({{ site.url }}/data/images/self-adapting-description.png)
+![Planar pushing object motion prediction problem]({{ site.url }}/data/images/self-adapting-description.png)
 {: style="width: 100%;" class="center"}
 *Figure 1. The planar pushing object movement prediction problem*
 
 ## Recurrent Model
+
+Humans can approximate dynamic models from several pushing steps during the interaction with an object and choose the suitable pushing direction and velocity given a target pose. Inspired by this memory learning process, we choose an LSTM module as the main part of our dynamic model.
+
+![LSTM]({{ site.url }}/data/images/self-adapting-LSTM.png)
+{: style="width: 100%;" class="center"}
+*Figure 2. The recurrent model*
+
+## Recurrent Model Predictive Path Integral
+
+In order to endow the original [MPPI](https://homes.cs.washington.edu/~bboots/files/InformationTheoreticMPC.pdf) with a memory mechanism, we add a history buffer $\mathcal{H}$ into the algorithm. Algorithm 1 gives details of the whole framework. The results from our real experiments prove the effectiveness of RMPPI.
+
+![Algorithm]({{ site.url }}/data/images/self-adapting-algorithm.png)
+{: style="width: 100%;" class="center"}
+*Figure 3. RMPPI*
