@@ -29,9 +29,9 @@ Humans can approximate dynamic models from several pushing steps during the inte
 
 Now let's see how the recurrent model perform. In the video you can see the data replay (two objects of size L and S in the left column) which is used to train the LSTM and the trained result of the network (two objects in the right column). The video shows 50 motion steps in which the first 5 steps are fixed used as the "warm-up stage" for the LSTM and the 45 steps after are the prediction results from the network. The network take the latest 5 history steps from the trajectory as input. The whole prediction trajectory is a recurrent sequence from the network output.
 
-![Recurrent model performance]({{ site.url }}/data/videos/self-adapting-motion-prediction.mp4)
+![Recurrent model performance]({{ site.url }}/data/videos/self-adapting-motion-prediction.gif)
 {: style="width: 100%;" class="center"}
-*Video 1. Data replay and the performance of the recurrent model*
+*gif 1. Data replay and the performance of the recurrent model*
 
 ## Recurrent Model Predictive Path Integral
 
