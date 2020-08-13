@@ -15,6 +15,7 @@ With the distinctive ability to recognize patterns in sequences of data, the LST
 and apply [Model Predictive Path Integral](https://homes.cs.washington.edu/~bboots/files/InformationTheoreticMPC.pdf) as control strategy to push the objects to target poses with a single point of contact.
 
 ![Planar pushing object motion prediction problem1]({{ site.url }}/data/images/self-adapting-description.pdf)
+![Planar pushing object motion prediction problem1]({{ site.url }}/data/images/test.png)
 
 
 #Recurrent Model
