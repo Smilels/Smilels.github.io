@@ -7,7 +7,7 @@ date: 2020-08-12
 
 [Lin Cong](https://tams.informatik.uni-hamburg.de/people/cong/), [Michael Görner](https://tams.informatik.uni-hamburg.de/people/goerner/), [Philipp Ruppel](https://tams.informatik.uni-hamburg.de/people/ruppel/), [Hongzhuo Liang](https://tams.informatik.uni-hamburg.de/people/liang/), [Norman Hendrich](https://tams.informatik.uni-hamburg.de/people/hendrich/), [Jianwei Zhang](https://tams.informatik.uni-hamburg.de/people/zhang/)
 
-# Related works and why do we propose this model
+## Related works and why do we propose this model
 
 Planar pushing problem has attracted many famous research groups' attention. Planar object pushing with a single contact is a typical under-actuated instance of robot manipulation. The uncertainty of different physics parameters and the pressure distribution makes it difficult to build a precise motion model for real interactions. Learning a data-driven model ([M.Bauza & A.Rodriguez](https://arxiv.org/abs/1704.03033)) is an effective method due to the stochastic nature of the pushing process. Valuable dataset including [Omnipush Dataset](http://web.mit.edu/mcube/omnipush-dataset/) by MIT, [Pushing Dataset](https://sites.google.com/site/brainrobotdata/home/push-dataset) by Google Brain are open to the whole community. Besides the model-based method, end-to-end policy learning by mapping from state space to action space directly is also becoming a trend.
 
@@ -18,4 +18,4 @@ and apply [Model Predictive Path Integral](https://homes.cs.washington.edu/~bboo
 ![Planar pushing object motion prediction problem1]({{ site.url }}/data/images/self-adapting-description.png)
 {: style="width: 100%;" class="center"}
 
-# Recurrent Model
+## Recurrent Model
