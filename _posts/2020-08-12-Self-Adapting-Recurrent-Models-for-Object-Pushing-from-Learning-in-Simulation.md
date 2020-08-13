@@ -27,11 +27,18 @@ Humans can approximate dynamic models from several pushing steps during the inte
 {: style="width: 100%;" class="center"}
 *Figure 2. The recurrent model*
 
+
+To train the model, we collect motion trajectories of objects with different physical properties in [openai gym](https://gym.openai.com/). The pushing policy is trained by [DDPG with HER](https://arxiv.org/abs/1707.01495). Left video shows the trained policy on the prototypical object, the right video is the policy applied on objects with different properties including size, weight and friction.
+
+![Data collection]({{ site.url }}/data/videos/self-adapting-data-collection.gif)
+{: style="width: 100%;" class="center"}
+*Data collection from gym*
+
 Now let's see how the recurrent model perform. In the video you can see the data replay (two objects of size L and S in the left column) which is used to train the LSTM and the trained result of the network (two objects in the right column). The video shows 50 motion steps in which the first 5 steps are fixed used as the "warm-up stage" for the LSTM and the 45 steps after are the prediction results from the network. The network take the latest 5 history steps from the trajectory as input. The whole prediction trajectory is a recurrent sequence from the network output.
 
 ![Recurrent model performance]({{ site.url }}/data/videos/self-adapting-motion-prediction.gif)
 {: style="width: 100%;" class="center"}
-*gif 1. Data replay and the performance of the recurrent model*
+*Data replay and the performance of the recurrent model*
 
 ## Recurrent Model Predictive Path Integral
 
@@ -40,3 +47,6 @@ This part we elaborate how we use the recurrent model and how the model achieve 
 ![Algorithm]({{ site.url }}/data/images/self-adapting-algorithm.png)
 {: style="width: 100%;" class="center"}
 *Figure 3. RMPPI*
+
+
+## Through domain randomization, transfer the model learned from simulation to real world.
