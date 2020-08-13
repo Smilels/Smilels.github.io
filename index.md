@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 # About Me
-Currently I am third year Ph.D student in computer science at [Universität Hamburg](https://tams.informatik.uni-hamburg.de/people/cong/). In 2014, I graduated with my Bachelor's degree in Mechatronic Engineering from [Harbin Institute of Technology](http://en.hit.edu.cn/). After that I started my postgraduate at [The State Key Laboratory of Robotics and Systems](http://en.hit.edu.cn/post/detail/3602). My master thesis focuses on the control system and algorithm of the Exoskeleton Robots. In 2017, I become a Ph.D. candidate in [Artificial Intelligence and Robotics]. I enjoy all the mathematics derivation and programing process in machine learning. Welcome to my research blogs [here](blog) and feel free to discuss with me. Here is a [brief CV](data/LinCong_CV.pdf) of mine.
+Currently I am third year Ph.D student in computer science at [Universität Hamburg](https://tams.informatik.uni-hamburg.de/people/cong/). In 2014, I graduated with my Bachelor's degree in **Mechatronic Engineering** from [Harbin Institute of Technology](http://en.hit.edu.cn/). After that I started my postgraduate at [The State Key Laboratory of Robotics and Systems](http://en.hit.edu.cn/post/detail/3602). My master thesis focuses on the control system and algorithm of the Exoskeleton Robots. In 2017, I became a Ph.D. candidate in **Artificial Intelligence and Robotics**. I enjoy all the mathematics derivation and programing process in machine learning. Welcome to my research blogs [here](blog) and feel free to discuss with me. Here is a [brief CV](data/personal/LinCong_CV.pdf) of mine.
 
 # Research Interests
 - Reinforcement learning for video games and real robot tasks

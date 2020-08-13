@@ -7,16 +7,13 @@ date: 2020-08-12
 
 [Lin Cong](https://tams.informatik.uni-hamburg.de/people/cong/), [Michael Görner](https://tams.informatik.uni-hamburg.de/people/goerner/), [Philipp Ruppel](https://tams.informatik.uni-hamburg.de/people/ruppel/), [Hongzhuo Liang](https://tams.informatik.uni-hamburg.de/people/liang/), [Norman Hendrich](https://tams.informatik.uni-hamburg.de/people/hendrich/), [Jianwei Zhang](https://tams.informatik.uni-hamburg.de/people/zhang/)
 
+#Related works and why do we propose this model
+Planar pushing problem has attracted many famous research groups' attention. Planar object pushing with a single contact is a typical under-actuated instance of robot manipulation. The uncertainty of different physics parameters and the pressure distribution makes it difficult to build a precise motion model for real interactions. Learning a data-driven model ([M.Bauza & A.Rodriguez](https://arxiv.org/abs/1704.03033)) is an effective method due to the stochastic nature of the pushing process. Valuable dataset including [Omnipush Dataset](http://web.mit.edu/mcube/omnipush-dataset/) by MIT, [Pushing Dataset](https://sites.google.com/site/brainrobotdata/home/push-dataset) by Google Brain are open to the whole community. Besides the model-based method, end-to-end policy learning by mapping from state space to action space directly is also becoming a trend.
 
-Planar pushing remains a challenging research topic, where building the dynamic model of the interaction is the core issue.
-Even an accurate analytical dynamic model is inherently unstable because
-physics parameters such as inertia and friction can only be approximated.
-Data-driven models usually rely on large amounts of training data,
-but data collection is time consuming when working with real robots.
+Recurrent Neural Networks (RNNs) have long been used for fitting nonlinear dynamic models.
+With the distinctive ability to recognize patterns in sequences of data, the LSTM module is chosen to fit the object motion dynamics during the pushing process. We use an LSTM-based model to predict the motion of objects with unknown parameters
+and apply [Model Predictive Path Integral](https://homes.cs.washington.edu/~bboots/files/InformationTheoreticMPC.pdf) as control strategy to push the objects to target poses with a single point of contact.
 
-In this paper, we collect all training data in a physics simulator and build an LSTM-based model to fit the pushing dynamics.
-Domain Randomization is applied to capture the pushing trajectories of a generalized class of objects.
-When executed on the real robot, the trained recursive model adapts
-to the tracked object's real dynamics within a few steps.
-We propose the algorithm Recurrent Model Predictive Path Integral (RMPPI) as a variation of the original MPPI approach,
-employing state-dependent recurrent models.
+![Planar pushing object motion prediction problem]({{'data/images/self-adapting_pushing_model_cropped}})
+{: style="width: 120%;" class="center"}
+#
