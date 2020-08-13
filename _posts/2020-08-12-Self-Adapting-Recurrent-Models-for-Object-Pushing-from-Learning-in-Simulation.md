@@ -17,5 +17,6 @@ and apply [Model Predictive Path Integral](https://homes.cs.washington.edu/~bboo
 
 ![Planar pushing object motion prediction problem1]({{ site.url }}/data/images/self-adapting-description.png)
 {: style="width: 100%;" class="center"}
+*Figure 1. The planar pushing object movement prediction problem*
 
 ## Recurrent Model
