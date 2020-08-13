@@ -14,8 +14,7 @@ Recurrent Neural Networks (RNNs) have long been used for fitting nonlinear dynam
 With the distinctive ability to recognize patterns in sequences of data, the LSTM module is chosen to fit the object motion dynamics during the pushing process. We use an LSTM-based model to predict the motion of objects with unknown parameters
 and apply [Model Predictive Path Integral](https://homes.cs.washington.edu/~bboots/files/InformationTheoreticMPC.pdf) as control strategy to push the objects to target poses with a single point of contact.
 
-![Planar pushing object motion prediction problem](../data/images/self-adapting_pushing_model_croped.pdf)
-![Planar pushing object motion prediction problem](images/test.png)
-![Planar pushing object motion prediction problem](images/pushing_model_croped.pdf)
+![Planar pushing object motion prediction problem](https://hitlyn.github.io/data/images/self-adapting_pushing_model_croped.pdf)
+![Planar pushing object motion prediction problem](https://hitlyn.github.io/_posts/images/test.png)
 {: style="width: 120%;" class="center"}
 #Recurrent Model
