@@ -29,7 +29,7 @@ Humans can approximate dynamic models from several pushing steps during the inte
 
 ## Recurrent Model Predictive Path Integral
 
-In order to endow the original [MPPI](https://homes.cs.washington.edu/~bboots/files/InformationTheoreticMPC.pdf) with a memory mechanism, we add a history buffer $\mathcal{H}$ into the algorithm. Algorithm 1 gives details of the whole framework. The results from our real experiments prove the effectiveness of RMPPI.
+In order to endow the original [MPPI](https://homes.cs.washington.edu/~bboots/files/InformationTheoreticMPC.pdf) with a memory mechanism, we add a history buffer $$\mathcal{H}$$ into the algorithm. Algorithm 1 gives details of the whole framework. The results from our real experiments prove the effectiveness of RMPPI.
 
 ![Algorithm]({{ site.url }}/data/images/self-adapting-algorithm.png)
 {: style="width: 100%;" class="center"}
