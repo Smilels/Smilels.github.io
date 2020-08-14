@@ -50,3 +50,17 @@ This part we elaborate how we use the recurrent model and how the model achieve 
 
 
 ## Through domain randomization, transfer the model learned from simulation to real world.
+
+The DDPG policy can be transfered to real environment directly. The shortcoming is that the determined policy can not be generalized to a different object.
+
+![Data collection]({{ site.url }}/data/videos/self-adapting-model-free.gif)
+{: style="width: 100%;" class="center"}
+*DDPG policy on real pushing task*
+
+By contrast, combining the proposed recurrent model and the RMPPI together can achieve generalization to push objects with different properties. In the video, all 1024 sampled trajectories are plotted, with the color implying the score from the RMPPI. Blue line is the optimization action.
+
+![Data collection]({{ site.url }}/data/videos/self-adapting-model-based.gif)
+{: style="width: 100%;" class="center"}
+*Recurrent model with RMPPI*
+
+Refer to the [paper](https://arxiv.org/abs/2007.13421) for more details.
