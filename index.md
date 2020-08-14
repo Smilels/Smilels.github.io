@@ -13,7 +13,7 @@ Currently I am third year Ph.D student in computer science at [Universität Hamb
 
 # Contact
 <ul class="contacts">
-        <li><a href="cong@informatik.uni-hamburg.der">Send Email: cong@informatik.uni-hamburg.de</a></li>
+        <li>@Email: cong@informatik.uni-hamburg.de</li>
 				<li>@WeChat: 18903660682</li>
         <li>@WhatsApp/Telegram: +49 15786838067</li>
 </ul>
