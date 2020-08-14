@@ -11,9 +11,15 @@ Currently I am third year Ph.D student in computer science at [Universität Hamb
 - Object detection/recognition/segmentation
 - Robot dexterous manipulation
 
+# Hobbies
+- Hardcore [Dota2](https://de.dota2.com/?l=schinese) player
+- Marathon, Hiking, Traveling
+- Big fan of [TED Talks](https://www.ted.com/talks)
+- [The Big Bang Theory](https://en.wikipedia.org/wiki/The_Big_Bang_Theory)
+
 # Contact
 <ul class="contacts">
         <li>@Email: cong@informatik.uni-hamburg.de</li>
 				<li>@WeChat: 18903660682</li>
-        <li>@WhatsApp/Telegram: +49 15786838067</li>
+        <!-- <li>@WhatsApp/Telegram: +49 15786838067</li> -->
 </ul>

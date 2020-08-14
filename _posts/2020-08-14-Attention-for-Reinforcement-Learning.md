@@ -10,7 +10,7 @@ a Reinforcement Learning framework. Here is some initial results, I will keep up
 
 # Initial Results of Attention Mechanism by Unsupervised Learning
 
-Three columns from left to right are "original input", "attention map output" and "reconstruction output". The training process is shown:
+Three columns from left to right are "original input", "attention map output" and "reconstruction output". The training process is shown in the videos. As the training epochs growing, the "attention part" is becoming more distinctive and irrelevant parts in the image are ignored.
 
 1. On our UR5 platform, paying attention to the robot arm
 ![]({{ site.url }}/data/videos/attention-real-ur5-arm.gif)
