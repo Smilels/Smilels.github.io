@@ -28,6 +28,7 @@ Three columns from left to right are "original input", "attention map output" an
 ![]({{ site.url }}/data/videos/attention-fetch-object.gif)
 
 6. On [deep mind control tasks](https://deepmind.com/research/open-source/deepmind-control-suite)
+
 ![]({{ site.url }}/data/images/attention-cheetah.png)
 
 ![]({{ site.url }}/data/images/attention-cartpole.png)
