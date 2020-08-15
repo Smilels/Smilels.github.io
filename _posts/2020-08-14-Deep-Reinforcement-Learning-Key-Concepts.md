@@ -31,7 +31,7 @@ Given the probabilities for each action, frameworks like PyTorch and Tensorflow 
 
 **Log-Likelihood:**
 
-$$ \log \pi_{\theta}(a|s) = \log (P_{\theta}(s))_{a} $$
+$$ \log \pi_{\theta}(a|s) = \log [P_{\theta}(s)]_{a} $$
 
 ### Diagonal Gaussian Policies
 A multivariate Gaussian distribution (or multivariate normal distribution, if you prefer) is described by a mean vector, \mu, and a covariance matrix, \Sigma. A diagonal Gaussian distribution is a special case where the covariance matrix only has entries on the diagonal. As a result, we can represent it by a vector.
@@ -47,4 +47,22 @@ The log-likelihood of a k -dimensional action a, for a diagonal Gaussian with me
 $$ \log \pi_{\theta}(a|s) = -\frac{1}{2}\left(\sum_{i=1}^k \left(\frac{(a_i - \mu_i)^2}{\sigma_i^2} + 2 \log \sigma_i \right) + k \log 2\pi \right) $$
 
 
-## Value Functionsssssssssssss
+## Value Functions
+
+It’s often useful to know the value of a state, or state-action pair. By value, we mean the expected return if you start in that state or state-action pair, and then act according to a particular policy forever after. There are four main functions of note here.
+
+1. The On-Policy Value Function, $$V^{\pi}(s)$$, which gives the expected return if you start in state s and always act according to policy $$\pi$$:
+
+$$V^{\pi}(s) = \underE{\tau \sim \pi}{R(\tau)\left| s_0 = s\right}$$
+
+2. The On-Policy Action-Value Function, $$Q^{\pi}(s,a)$$, which gives the expected return if you start in state s, take an arbitrary action a (which may not have come from the policy), and then forever after act according to policy $$\pi$$:
+
+$$Q^{\pi}(s,a) = \underE{\tau \sim \pi}[R(\tau)| s_0 = s, a_0 = a]$$
+
+3.The Optimal Value Function, $$V^*(s)$$, which gives the expected return if you start in state s and always act according to the optimal policy in the environment:
+
+$$ V^*(s) = \max_{\pi} \underE{\tau \sim \pi}[R(\tau)| s_0 = s\right] $$
+
+4. The Optimal Action-Value Function, $$Q^*(s,a)$$, which gives the expected return if you start in state s, take an arbitrary action a, and then forever after act according to the optimal policy in the environment:
+
+$$Q^*(s,a) = \max_{\pi} \underE{\tau \sim \pi}[R(\tau)| s_0 = s, a_0 = a\right]$$
