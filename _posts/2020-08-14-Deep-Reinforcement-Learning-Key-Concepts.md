@@ -72,9 +72,9 @@ $$Q^*(s,a) = \max_{\pi} \underset{\tau \sim \pi}{E}[R(\tau)| s_0 = s, a_0 = a]$$
 
 > The value of your starting point is the reward you expect to get from being there, plus the value of wherever you land next.
 
-The Bellman equations for the on-policy value functions are
+The Bellman equations for the on-policy value functions are:
 
-$$V^{\pi}(s) = \underset{s'\sim P}{\underset{\tau \sim \pi}{E}}[r(s,a) + \gamma V^{\pi}(s')]$$,
+$$V^{\pi}(s) = \underset{s'\sim P}{\underset{\tau \sim \pi}{E}}[r(s,a) + \gamma V^{\pi}(s')]$$
 
 $$Q^{\pi}(s,a) = \underset{s'\sim P}{E}[r(s,a) + \gamma \underset{a' \sim \pi}{E}[Q^{\pi}(s',a')]]$$
 ## Advantage Functions
