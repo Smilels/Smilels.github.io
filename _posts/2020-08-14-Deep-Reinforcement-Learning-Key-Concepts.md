@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On going work, attention mechanism for reinforcement learning"
+title: "Reinforcement Learning Key Concepts"
 data: 2020-08-12
 ---
 
@@ -9,6 +9,7 @@ In this blog, I will try to elaborate some key concepts in RL which caused confu
 
 # Determined Policy and Stochastic Policy
 A policy is the control rule to decide the actions to take according to current environment situations. It can be deterministic, in which case it is usually denoted by $$ \mu: $$
+
 $$
 a_t = \mu(s_t)
 $$
