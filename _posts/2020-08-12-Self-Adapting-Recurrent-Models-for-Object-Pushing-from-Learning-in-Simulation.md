@@ -63,4 +63,4 @@ By contrast, combining the proposed recurrent model and the RMPPI together can a
 {: style="width: 100%;" class="center"}
 *Recurrent model with RMPPI*
 
-Refer to the [paper](https://arxiv.org/abs/2007.13421) for more details.
+Refer to our [paper](https://arxiv.org/abs/2007.13421) for more details.
