@@ -74,9 +74,9 @@ $$Q^*(s,a) = \max_{\pi} \underset{\tau \sim \pi}{E}[R(\tau)| s_0 = s, a_0 = a]$$
 
 The Bellman equations for the on-policy value functions are
 
-$$V^{\pi}(s) = \underset{s^'\sim P}{\underset{\tau \sim \pi}{E}}[r(s,a) + \gamma V^{\pi}(s^')]$$
+$$V^{\pi}(s) = \underset{s'\sim P}{\underset{\tau \sim \pi}{E}}[r(s,a) + \gamma V^{\pi}(s')]$$,
 
-$$Q^{\pi}(s,a) = \underset{s^'\sim P}{E}}[r(s,a) + \gamma \underset{a^' \sim \pi}{E}[Q^{\pi}(s^')]]$$
+$$Q^{\pi}(s,a) = \underset{s'\sim P}{E}[r(s,a) + \gamma \underset{a' \sim \pi}{E}[Q^{\pi}(s',a')]]$$
 ## Advantage Functions
 
 The advantage function $$A^{\pi}(s,a)$$ corresponding to a policy $$\pi$$ describes how much better it is to take a specific action $$a$$ in state $$s$$, over randomly selecting an action:
