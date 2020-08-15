@@ -59,7 +59,7 @@ $$V^{\pi}(s) = \underset{\tau \sim \pi}{E}[R(\tau)| s_0 = s]$$
 
 $$Q^{\pi}(s,a) = \underset{\tau \sim \pi}{E}[R(\tau)| s_0 = s, a_0 = a]$$
 
-3.The Optimal Value Function, $$V^*(s)$$, which gives the expected return if you start in state s and always act according to the optimal policy in the environment:
+3. The Optimal Value Function, $$V^*(s)$$, which gives the expected return if you start in state s and always act according to the optimal policy in the environment:
 
 $$ V^*(s) = \max_{\pi} \underset{\tau \sim \pi}{E}[R(\tau)| s_0 = s] $$
 
@@ -74,6 +74,6 @@ $$Q^*(s,a) = \max_{\pi} \underset{\tau \sim \pi}{E}[R(\tau)| s_0 = s, a_0 = a]$$
 
 ## Advantage Functions
 
-The advantage function $$A^{\pi}(s,a)$$ corresponding to a policy $$\pi$$ describes how much better it is to take a specific action a in state s, over randomly selecting an action according to $$\pi(\cdot|s)$$, assuming you act according to $$\pi$$ forever after. Mathematically, the advantage function is defined by
+The advantage function $$A^{\pi}(s,a)$$ corresponding to a policy $$\pi$$ describes how much better it is to take a specific action $$a$$ in state $$s$$, over randomly selecting an action according to $$\pi(\cdot|s)$$, assuming you act according to $$\pi$$ forever after. Mathematically, the advantage function is defined by
 
 $$A^{\pi}(s,a) = Q^{\pi}(s,a) - V^{\pi}(s)$$
