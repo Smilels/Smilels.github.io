@@ -44,6 +44,7 @@ $$ a = \mu_{\theta}(s) + \sigma_{\theta}(s) \odot z $$
 **Log-Likelihood:**
 
 The log-likelihood of a k -dimensional action a, for a diagonal Gaussian with mean $$\mu = \mu_{\theta}(s)$$ and standard deviation $$\sigma = \sigma_{\theta}(s)$$, is given by
+
 $$ \log \pi_{\theta}(a|s) = -\frac{1}{2}\left(\sum_{i=1}^k \left(\frac{(a_i - \mu_i)^2}{\sigma_i^2} + 2 \log \sigma_i \right) + k \log 2\pi \right) $$
 
 
@@ -74,6 +75,6 @@ $$Q^*(s,a) = \max_{\pi} \underset{\tau \sim \pi}{E}[R(\tau)| s_0 = s, a_0 = a]$$
 
 ## Advantage Functions
 
-The advantage function $$A^{\pi}(s,a)$$ corresponding to a policy $$\pi$$ describes how much better it is to take a specific action $$a$$ in state $$s$$, over randomly selecting an action according to $$ \pi(\cdot | s) $$, assuming you act according to $$\pi$$ forever after. Mathematically, the advantage function is defined by
+The advantage function $$A^{\pi}(s,a)$$ corresponding to a policy $$\pi$$ describes how much better it is to take a specific action $$a$$ in state $$s$$, over randomly selecting an action:
 
 $$A^{\pi}(s,a) = Q^{\pi}(s,a) - V^{\pi}(s)$$
