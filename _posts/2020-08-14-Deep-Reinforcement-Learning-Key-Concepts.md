@@ -11,9 +11,11 @@ In this blog, I will try to elaborate some key concepts in RL which caused confu
 A policy is the control rule to decide the actions to take according to current environment situations. It can be deterministic, in which case it is usually denoted by $$ \mu: $$
 
 $$ a_t = \mu(s_t) $$
+
 or it may be stochastic, in which case it is usually denoted by $$\pi:$$
 
 $$ a_t \sim \pi(\cdot | s_t)$$
+
 We often denote the parameters of such policy by $$\theta$$ or $$\phi$$
 
 $$ a_t = \mu_{\theta}(s_t) $$
