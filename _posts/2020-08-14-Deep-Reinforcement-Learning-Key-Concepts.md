@@ -31,7 +31,7 @@ Given the probabilities for each action, frameworks like PyTorch and Tensorflow 
 
 **Log-Likelihood:**
 
-$$ \log \pi_{\theta}(a|s) = \log \[ P_{\theta}(s) \]_{a} $$
+$$ \log \pi_{\theta}(a|s) = \log (P_{\theta}(s))_{a} $$
 
 ### Diagonal Gaussian Policies
 A multivariate Gaussian distribution (or multivariate normal distribution, if you prefer) is described by a mean vector, \mu, and a covariance matrix, \Sigma. A diagonal Gaussian distribution is a special case where the covariance matrix only has entries on the diagonal. As a result, we can represent it by a vector.
