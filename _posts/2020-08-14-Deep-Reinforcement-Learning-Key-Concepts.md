@@ -68,3 +68,12 @@ $$ V^*(s) = \max_{\pi} \underset{\tau \sim \pi}{E}\[R(\tau)| s_0 = s\] $$
 $$Q^*(s,a) = \max_{\pi} \underE{\tau \sim \pi}{E}\[R(\tau)| s_0 = s, a_0 = a\]$$
 
 ## Bellman Equations
+
+> The value of your starting point is the reward you expect to get from being there, plus the value of wherever you land next.
+
+
+## Advantage Functions
+
+The advantage function $$A^{\pi}(s,a)$$ corresponding to a policy $$\pi$$ describes how much better it is to take a specific action a in state s, over randomly selecting an action according to $$\pi(\cdot|s)$$, assuming you act according to $$\pi$$ forever after. Mathematically, the advantage function is defined by
+
+$$A^{\pi}(s,a) = Q^{\pi}(s,a) - V^{\pi}(s)$$
