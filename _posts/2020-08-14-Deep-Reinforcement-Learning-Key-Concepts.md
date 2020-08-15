@@ -53,16 +53,18 @@ It’s often useful to know the value of a state, or state-action pair. By value
 
 1. The On-Policy Value Function, $$V^{\pi}(s)$$, which gives the expected return if you start in state s and always act according to policy $$\pi$$:
 
-$$V^{\pi}(s) = \underE{\tau \sim \pi}{R(\tau)\left| s_0 = s\right}$$
+$$V^{\pi}(s) = \underset{\tau \sim \pi}{E}\[R(\tau)| s_0 = s\]$$
 
 2. The On-Policy Action-Value Function, $$Q^{\pi}(s,a)$$, which gives the expected return if you start in state s, take an arbitrary action a (which may not have come from the policy), and then forever after act according to policy $$\pi$$:
 
-$$Q^{\pi}(s,a) = \underE{\tau \sim \pi}[R(\tau)| s_0 = s, a_0 = a]$$
+$$Q^{\pi}(s,a) = \underset{\tau \sim \pi}{E}\[R(\tau)| s_0 = s, a_0 = a\]$$
 
 3.The Optimal Value Function, $$V^*(s)$$, which gives the expected return if you start in state s and always act according to the optimal policy in the environment:
 
-$$ V^*(s) = \max_{\pi} \underE{\tau \sim \pi}[R(\tau)| s_0 = s\right] $$
+$$ V^*(s) = \max_{\pi} \underset{\tau \sim \pi}{E}\[R(\tau)| s_0 = s\] $$
 
 4. The Optimal Action-Value Function, $$Q^*(s,a)$$, which gives the expected return if you start in state s, take an arbitrary action a, and then forever after act according to the optimal policy in the environment:
 
-$$Q^*(s,a) = \max_{\pi} \underE{\tau \sim \pi}[R(\tau)| s_0 = s, a_0 = a\right]$$
+$$Q^*(s,a) = \max_{\pi} \underE{\tau \sim \pi}{E}\[R(\tau)| s_0 = s, a_0 = a\]$$
+
+## Bellman Equations
