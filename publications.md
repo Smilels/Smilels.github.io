@@ -5,6 +5,9 @@ title: Publications
 # Publications
 
 ## 2021
+
+- **Lin Cong**, Hongzhuoliang, Philipp Ruppel, Yunlei Shi, Michael Görner, Norman Hendrich and Jianwei Zhang, "**Reinforcement Learning with Vision-Proprioception Model for Robot Planar Pushing**", Pre-Print
+
 - Hongzhuo Liang, **Lin Cong\***, Norman Hendrich, Shuang Li, Fuchun Sun and Jianwei Zhang, "**Learn multi-fingered grasping from simulation based on multimodal reinforcement learning**", Robotics and Automation Letters (RA-L) 2021
 
 - **Lin Cong**, Yunlei Shi and Jianwei Zhang, "**Self-supervised Attention Learning for Robot Control**", IEEE International Conference on Robotics and Biomimetics (ROBIO) 2021
