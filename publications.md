@@ -5,11 +5,11 @@ title: Publications
 # Publications
 
 ## 2021
-Hongzhuo Liang, **Lin Cong\***, Norman Hendrich, Shuang Li, Fuchun Sun and Jianwei Zhang, "**Learn multi-fingered grasping from simulation based on multimodal reinforcement learning**", Robotics and Automation Letters (RA-L) 2021
+- Hongzhuo Liang, **Lin Cong\***, Norman Hendrich, Shuang Li, Fuchun Sun and Jianwei Zhang, "**Learn multi-fingered grasping from simulation based on multimodal reinforcement learning**", Robotics and Automation Letters (RA-L) 2021
 
-**Lin Cong**, Yunlei Shi and Jianwei Zhang, "**Self-supervised Attention Learning for Robot Control**", IEEE International Conference on Robotics and Biomimetics (ROBIO) 2021
+- **Lin Cong**, Yunlei Shi and Jianwei Zhang, "**Self-supervised Attention Learning for Robot Control**", IEEE International Conference on Robotics and Biomimetics (ROBIO) 2021
 
-Yunlei Shi, Zhaopeng Chen, **Lin Cong**, Yansong Wu, Martin Craiu-MÃ¼ller, Chengjie Yuan, Chunyang Chang, Lei Zhang and Jianwei Zhang, "**Maximizing the Use of Environmental Constraints: A Pushing-Based Hybrid Position/Force Assembly Skill for Contact-Rich Tasks**", IEEE International Conference on Robotics and Biomimetics (ROBIO) 2021
+- Yunlei Shi, Zhaopeng Chen, **Lin Cong**, Yansong Wu, Martin Craiu-MÃ¼ller, Chengjie Yuan, Chunyang Chang, Lei Zhang and Jianwei Zhang, "**Maximizing the Use of Environmental Constraints: A Pushing-Based Hybrid Position/Force Assembly Skill for Contact-Rich Tasks**", IEEE International Conference on Robotics and Biomimetics (ROBIO) 2021
 
 
 ## 2020
