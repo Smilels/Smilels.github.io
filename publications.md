@@ -5,9 +5,9 @@ title: Publications
 # Publications
 
 ## 2023
-Yunlei Shi, Chengjie Yuan, Athanasios Tsitos, **Lin Cong**, Hamid Hadjar, Zhaopeng Chen, Jianwei Zhang, "**A Sim-to-Real Learning-based Framework for Contact-Rich Assembly by Utilizing CycleGAN and Force Control**", IEEE Transactions on Cognitive and Developmental Systems, 2023, DOI: 10.1109/TCDS.2023.3237734
+- Yunlei Shi, Chengjie Yuan, Athanasios Tsitos, **Lin Cong**, Hamid Hadjar, Zhaopeng Chen, Jianwei Zhang, "**A Sim-to-Real Learning-based Framework for Contact-Rich Assembly by Utilizing CycleGAN and Force Control**", IEEE Transactions on Cognitive and Developmental Systems, 2023, DOI: 10.1109/TCDS.2023.3237734
 
-Hao Zhang, Hongzhuo Liang , **Lin Cong**, Jianzhi Lyu , Long Zeng*, Pingfa Feng, and Jianwei Zhang , "**Reinforcement Learning Based Pushing and Grasping Objects from Ungraspable Poses**" , International Conference on Robotics and Automation (ICRA) 2023, ExCel London, UK
+- Hao Zhang, Hongzhuo Liang , **Lin Cong**, Jianzhi Lyu , Long Zeng*, Pingfa Feng, and Jianwei Zhang , "**Reinforcement Learning Based Pushing and Grasping Objects from Ungraspable Poses**" , International Conference on Robotics and Automation (ICRA) 2023, ExCel London, UK
 
 
 ## 2022
