@@ -5,9 +5,11 @@ title: Publications
 # Publications
 
 ## 2023
+- **Lin Cong**, Philipp Ruppel, Yizhou Wang, Xiang Pan, Norman Hendrich, Jianwei Zhang, "**Efficient Human Motion Reconstruction from Monocular Videos with Physical Consistency Loss**", SIGGRAPH-ASIA 2023, Sydney NSW, Australia. [[Project Page]](https://tams.informatik.uni-hamburg.de/people/cong/)  [[DOI]](https://dl.acm.org/doi/10.1145/3610548.3618169)
+- 
 - Yunlei Shi, Chengjie Yuan, Athanasios Tsitos, **Lin Cong**, Hamid Hadjar, Zhaopeng Chen, Jianwei Zhang, "**A Sim-to-Real Learning-based Framework for Contact-Rich Assembly by Utilizing CycleGAN and Force Control**", IEEE Transactions on Cognitive and Developmental Systems, 2023, DOI: 10.1109/TCDS.2023.3237734
 
-- Hao Zhang, Hongzhuo Liang , **Lin Cong**, Jianzhi Lyu , Long Zeng*, Pingfa Feng, and Jianwei Zhang , "**Reinforcement Learning Based Pushing and Grasping Objects from Ungraspable Poses**" , International Conference on Robotics and Automation (ICRA) 2023, ExCel London, UK
+- Hao Zhang, Hongzhuo Liang, **Lin Cong**, Jianzhi Lyu, Long Zeng*, Pingfa Feng, and Jianwei Zhang, "**Reinforcement Learning Based Pushing and Grasping Objects from Ungraspable Poses**", International Conference on Robotics and Automation (ICRA) 2023, ExCel London, UK
 
 
 ## 2022
