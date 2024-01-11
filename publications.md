@@ -26,7 +26,7 @@ title: Publications
 
 ## 2021
 
-- Hongzhuo Liang, **Lin Cong\***, Norman Hendrich, Shuang Li, Fuchun Sun and Jianwei Zhang, "**Learn multi-fingered grasping from simulation based on multimodal reinforcement learning**", Robotics and Automation Letters (RA-L) 2021
+- Hongzhuo Liang\*, **Lin Cong\***, Norman Hendrich, Shuang Li, Fuchun Sun and Jianwei Zhang, "**Learn multi-fingered grasping from simulation based on multimodal reinforcement learning**", Robotics and Automation Letters (RA-L) 2021
 
 <div style="text-align:center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PuYvUxyDnPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
